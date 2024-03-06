@@ -1,0 +1,17 @@
+name = "salone-node"
+type = "webpack"
+account_id = "9e9924666e29294312ffb31146f279f9"
+workers_dev = true
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
+
+[env.production]
+name = "salone-node"
+route = "example.com/*"
+zone_id = "YOUR_ZONE_ID"
+
+[env.development]
+name = "salone-node"
+route = "example.dev/*"
