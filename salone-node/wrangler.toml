@@ -1,4 +1,4 @@
-name = "salone-node"
+compatibility_date = "2024-03-04"name = "salone-node"
 type = "webpack"
 account_id = "9e9924666e29294312ffb31146f279f9"
 workers_dev = true
@@ -9,9 +9,9 @@ entry-point = "workers-site"
 
 [env.production]
 name = "salone-node"
-route = "https://salone-node.pages.dev/*"
+route = "example.com/*"
 zone_id = "YOUR_ZONE_ID"
 
 [env.development]
 name = "salone-node"
-route = "https://salone-node.pages.dev/*"
+route = "example.dev/*"
